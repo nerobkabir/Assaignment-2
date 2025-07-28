@@ -90,6 +90,7 @@ nav li:nth-child(1) a{
 .plant-section{
     padding:0 2rem;
     max-width: 1280px;
+    margin-bottom: 40px;
 }
 
 .plant_text h2{
@@ -105,17 +106,18 @@ nav li:nth-child(1) a{
 .plant_text p{
     width: 80%;
     margin: 0 auto;
-    text-align: center;
     margin-bottom: 1rem;
     color: #6C6C6C;
+    text-align: center;
     font-family: "Inter", sans-serif;
 }
 
 .Plants-parent{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
     text-align: center;
+    gap: 1rem;
+    
 }
 
 .card img{
@@ -147,29 +149,31 @@ nav li:nth-child(1) a{
 /* Flower & Plants Lover */
 .love-parent{
     padding: 6rem 2rem 2rem;
+    align-items: center; 
+    gap: 3rem;
+    margin-bottom: 40px;
     max-width: 1280px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    gap: 4rem;
+    
 }
 
-.love{
+.love_image{
     position: relative;
 }
 
-.love .Badge{
+.love_image .Badge{
     position: absolute;
-    width: 12rem;
     right: -5rem;
+    width: 12rem;
     top: -5.5rem;
 }
 
-.love-img{
-    width: 35vw;
+.love-img_2{
+    width: 25vw;
 }
 
-.love-img img{
+.love-img_2 img{
     display: block;
     width: 100%;
 }
