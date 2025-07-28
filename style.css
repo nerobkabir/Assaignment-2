@@ -160,7 +160,7 @@ nav li:nth-child(1) a{
 
 .love_image{
     position: relative;
-    padding-left: 50px;
+    padding-left: 10px;
 }
 
 .love_image .Badge{
@@ -195,10 +195,11 @@ nav li:nth-child(1) a{
     font-family: "Inter", sans-serif;
     margin-bottom: 20px;
     column-gap: 10px;
+    text-align: justify;
 }
 
 .love-parent h2, .love-parent ul{
-    padding-left: 50px;
+    padding-left: 30px;
     
 }
 
@@ -361,8 +362,6 @@ header{
     padding: 1rem;
 }
 
-
-
 nav li:nth-child(1) a,
 nav li:nth-child(2) a,
 nav li:nth-child(3) a{
@@ -448,8 +447,9 @@ nav li:nth-child(3) a{
   }
 
   .love-parent ul {
-    padding-left: 0;
+    padding-left: 15px;
     font-size: 0.9rem;
+    text-align: justify;
   }
 
   .love-parent ul li {
@@ -503,6 +503,4 @@ nav li:nth-child(3) a{
 .first-column{
     width: 100%;
 }
-
-
 }
