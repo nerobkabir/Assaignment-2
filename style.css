@@ -396,7 +396,7 @@ nav li:nth-child(3) a{
     padding:0 1rem;
 }
 
-.common h2{
+.plant_text h2{
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 0.4rem;
@@ -473,6 +473,10 @@ nav li:nth-child(3) a{
 
 .first-column{
     width: 100%;
+}
+
+.footer ul li{
+    padding-bottom: 10px;
 }
 
 
